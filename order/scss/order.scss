@@ -1,0 +1,769 @@
+$design-width: 750px;
+
+@function px2rem( $px )
+{
+@return $px/$design-width*10 + rem; //对应js 
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        background: #f8f8f8;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        //头部
+        #header{
+            width: px2rem(750px);
+            height: px2rem(88px);
+            background: #fff;
+            position: fixed;
+            border-bottom: 1px solid #f8f8f8;
+            .writeorder{
+                font-size:px2rem(36px);
+                font-family:PingFangSC-Medium;
+                font-weight:600;
+                color:rgba(51,51,51,1);
+                line-height:px2rem(88px);
+                width: 100;
+                height: 100%;
+                text-align: center;
+            }
+            .h_back{
+                display: inline-block;
+                width: px2rem(44px);
+                height: 100%;
+                top: 0;
+                position: absolute;
+                left: px2rem(9px);
+                font-size: px2rem(44px);
+                line-height: px2rem(88px);
+                text-align: center;
+                color: #333;
+            }
+        }
+        #od_content{
+            overflow: auto;
+            width: 100%;
+            height: 93%;
+            
+            //用户
+            #order_user{
+                margin-top: px2rem(88px);
+                width: 100%;
+                height: px2rem(150px);
+                background: #fff;
+                padding-top: px2rem(30px);
+                .u_name{
+                    margin-left: px2rem(73px);
+                    :first-child{
+                        font-size:px2rem(32px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:500;
+                        color:rgba(51,51,51,1);
+                    }
+                    :last-child{
+                        margin-left: px2rem(31px);
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                    }
+                }
+                .u_adress{
+                    margin-left: px2rem(17px);
+                    :first-child{
+                        color: #666;
+                        font-size: px2rem(36px);
+                        display: inline-block;
+                        width: px2rem(44px);
+                        text-align: center;
+                        line-height: px2rem(60px);
+                    }
+                    :nth-child(2){
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                        line-height:px2rem(60px);
+                    }
+                    :nth-child(3){
+                        margin-left: px2rem(60px);
+                        color: #666;
+                        font-size: px2rem(20px);
+                        display: inline-block;
+                        width: px2rem(44px);
+                        text-align: center;
+                        line-height: px2rem(60px);
+                        i{
+                            color: #666;
+                            font-size: px2rem(44px);
+                            display: inline-block;
+                            width: px2rem(44px);
+                            text-align: center;
+                            line-height: px2rem(60px);
+                        }
+                    }
+                }
+            }
+            //商品
+            #order_goods{
+                
+                width: 100%;
+                background: #f8f8f8;
+                .pay_goods{
+                    background: #fff;
+                    margin-top: px2rem(20px);
+                    width: 100%;
+                    .g_detail{
+                        width: 100%;
+                        height: px2rem(252px);
+                        border-bottom: 1px solid #f8f8f8;
+                        padding: px2rem(30px) 0 px2rem(30px) px2rem(24px);
+                        img{
+                            width: px2rem(192px);
+                            height: px2rem(192px);
+                        }
+                        .goods{
+                            vertical-align: top;
+                            padding-top: px2rem(24px);
+                            display: inline-block;
+                            width: px2rem(494px);
+                            margin-left: px2rem(21px);
+                            .goods_title{
+                                font-size:px2rem(28px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:600;
+                                color:rgba(51,51,51,1);
+                                line-height:px2rem(40px);
+                                letter-spacing: 1px;
+                            }
+                            .goods_pri{
+                                width: 100%;
+                                margin-top: px2rem(20px);
+                                .pone{
+                                    float: left;
+                                    line-height: px2rem(40px);
+                                    :nth-child(1){
+                                        font-size: px2rem(34px);
+                                        color: #fdb262;
+                                        font-weight: 600;
+                                    }
+                                    :nth-child(2){
+                                        font-size: px2rem(22px);
+                                        color: #fdb262;
+                                    }
+                                    :nth-child(3){
+                                        font-size: px2rem(20px);
+                                        color: #fdb262;
+                                    }
+                                    :nth-child(4){
+                                        font-size: px2rem(34px);
+                                        color: #fdb262;
+                                        font-weight: 600;
+                                    }
+                                    :nth-child(5){
+                                        font-size: px2rem(22px);
+                                        color: #fdb262;
+                                    }
+                                }
+                                .psec{
+                                    float: right;
+                                    font-size:px2rem(24px);
+                                    font-family:PingFangSC-Regular;
+                                    font-weight:400;
+                                    color:rgba(102,102,102,1);
+                                    line-height:px2rem(40px);
+                                    :first-child{
+                                        margin-right: px2rem(20px);
+                                        line-height:px2rem(40px);
+                                    }
+                                    :last-child{
+                                        line-height:px2rem(40px);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .delivery{
+                    width: 100%;
+                    height: px2rem(110px);
+                    padding: 0 px2rem(25px) 0 px2rem(25px);
+                    border-bottom: 1px solid #f8f8f8;
+                    :first-child{
+                        float: left;
+                        line-height: px2rem(110px);
+                        font-size:px2rem(30px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:600;
+                        color:rgba(51,51,51,1);
+                    }
+                    :last-child{
+                        float: right;
+                        font-weight: 600;
+                        line-height: px2rem(110px);
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        color:rgba(51,51,51,1);
+                    }
+                }
+                .message{
+                    width: 100%;
+                    height: px2rem(110px);
+                    padding: 0 px2rem(25px) 0 px2rem(25px);
+                    border-bottom: 1px solid #f8f8f8;
+                    p{
+                        float: left;
+                        line-height: px2rem(110px);
+                        font-size:px2rem(30px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:600;
+                        color:rgba(51,51,51,1);
+                    }
+                    input{
+                        border: none;
+                        margin-left: px2rem(31px);
+                        font-size:px2rem(26px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(153,153,153,1);
+                        line-height:px2rem(110px);
+                        width: px2rem(364px);
+                    }
+                }
+            }
+            //发票
+            #invoice{
+                width: 100%;
+                height: px2rem(110px);
+                margin-top: px2rem(20px);
+                background: #fff;
+                padding: 0 px2rem(25px) 0 px2rem(25px);
+                .p1{
+                    float: left;
+                    font-size:px2rem(30px);
+                    font-family:PingFangSC-Regular;
+                    font-weight:400;
+                    color:rgba(51,51,51,1);
+                    line-height:px2rem(110px);
+                }
+                .p2{
+                    float: right;
+                    span{
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                        line-height:px2rem(110px);
+                    }
+                    i{
+                        font-size: px2rem(28px);
+                        color: #999;
+                        line-height: px2rem(110px);
+                        margin-left: px2rem(9px);
+                    }
+                }
+            }
+            //结算
+            #settlement{
+                width: 100%;
+                padding: 0 px2rem(25px) 0 px2rem(25px);
+                margin-top: px2rem(20px);
+                background: #fff;
+                line-height: px2rem(110px);
+                div{
+                    :first-child{
+                        float: left;
+                        font-size:px2rem(30px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                    }
+                    :last-child{
+                        float: right;
+                        font-size:px2rem(30px);
+                        font-family:DIN-Regular;
+                        font-weight:400;
+                        color:rgba(253,178,98,1);
+                    }
+                }
+                .money{
+                    width: 100%;
+                    //background: #fff;
+                    height: px2rem(110px);
+                    border-bottom: 1px solid #f8f8f8;
+                }
+                .jifen{
+                    width: 100%;
+                    //background: #fff;
+                    height: px2rem(110px);
+                    border-bottom: 1px solid #f8f8f8;
+                }
+                .freight{
+                    width: 100%;
+                    //background: #fff;
+                    height: px2rem(110px);
+                    border-bottom: 1px solid #f8f8f8;
+                }
+            }
+        }
+        #order_footer{
+            width:100%;
+            height: 7%;
+            background: #fff;
+            p{
+                float: right;
+            }
+            .submit{
+                line-height: px2rem(98px);
+                letter-spacing: 1px;
+                font-size:px2rem(36px);
+                font-family:PingFangSC-Medium;
+                font-weight:500;
+                color:rgba(254,254,254,1);
+                width: px2rem(220px);
+                height:100%;
+                text-align: center;
+                background:linear-gradient(135deg,rgba(253,112,98,1),rgba(253,149,98,1));
+            }
+            .total{
+                font-size:px2rem(28px);
+                font-family:PingFangSC-Regular;
+                font-weight:400;
+                color:rgba(51,51,51,1);
+                line-height:px2rem(98px);
+            }
+            .f_price{
+                margin-right: px2rem(15px);
+                font-size: px2rem(36px);
+                color: #fdb262;
+                line-height: px2rem(98px);
+                //vertical-align: middle;
+                :nth-child(2){
+                    font-size: px2rem(22px);
+                }
+                :nth-child(3){
+                    font-size: px2rem(22px);
+                }
+                :nth-child(5){
+                    font-size: px2rem(22px);
+                }
+            }
+        }
+        //点击发票选择框
+        #invoice_slide{
+            display: none;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background:rgba(153,153,153,.5);
+            .slide_box{
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: px2rem(358px);
+                background:rgba(255,255,255,1);
+                border-radius:px2rem(10px) px2rem(10px) 0px 0px;
+                padding: px2rem(30px) px2rem(24px) px2rem(9px) px2rem(24px); 
+                .title{
+                    font-size: px2rem(32px);
+                    color: #999;
+                }
+                .inv_item{
+                    margin-top: px2rem(39px);
+                    p{
+                        font-size: px2rem(28px);
+                        color: #333;
+                        font-weight: 600;
+                        margin-bottom: px2rem(20px);
+                    }
+                    span{
+                        display: inline-block;
+                        height: px2rem(42px);
+                        border-radius: px2rem(42px);
+                        color: #999;
+                        border: 1px solid #999;
+                        line-height: px2rem(36px);
+                        margin-right: px2rem(30px);
+                        padding: px2rem(0px) px2rem(19px) px2rem(0px) px2rem(18px);
+                    }
+                    .spa{
+                        display: inline-block;
+                        height: px2rem(42px);
+                        border-radius: px2rem(42px);
+                        color: #fd7062;
+                        border: 1px solid #fd7062;
+                        line-height: px2rem(36px);
+                        margin-right: px2rem(30px);
+                        padding: px2rem(0px) px2rem(19px) px2rem(0px) px2rem(18px);
+                    }
+                }
+                .out_item{
+                    margin-top: px2rem(30px);
+                    display: none;
+                    .introduce{
+                        font-size:px2rem(24px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(102,102,102,1);
+                    }
+                    .item{
+                        margin-top: px2rem(30px);
+                    }
+                    .itemfir{
+                        .p1{
+                            font-size:px2rem(28px);
+                            font-family:PingFangSC-Medium;
+                            font-weight:600;
+                            color:rgba(51,51,51,1);
+                            margin-bottom: px2rem(20px);
+                        }
+                        .p2{
+                            span{
+                                display: inline-block;
+                                height: px2rem(42px);
+                                border-radius: px2rem(42px);
+                                color: #999;
+                                border: 1px solid #999;
+                                line-height: px2rem(36px);
+                                margin-right: px2rem(30px);
+                                padding: px2rem(0px) px2rem(19px) px2rem(0px) px2rem(18px);
+                            }
+                            .spa{
+                                display: inline-block;
+                                height: px2rem(42px);
+                                border-radius: px2rem(42px);
+                                color: #fd7062;
+                                border: 1px solid #fd7062;
+                                line-height: px2rem(36px);
+                                margin-right: px2rem(30px);
+                                padding: px2rem(0px) px2rem(19px) px2rem(0px) px2rem(18px);
+                            }
+                        }
+                        .danwei{
+                            display: none;
+                            margin-top: px2rem(30px);
+                            input{
+                                width: px2rem(702px);
+                                padding-left: px2rem(31px);
+                                height: px2rem(60px);
+                                margin-bottom: px2rem(20px);
+                                border-radius: px2rem(60px);
+                                background: #f1f1f2;
+                                border: none;
+                                font-size:px2rem(26px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:400;
+                                color:rgba(102,102,102,1);
+                            }
+                        }
+                    }
+                    .itemsec{
+                        //margin-top: 0;
+                        .p1{
+                            font-size:px2rem(28px);
+                            font-family:PingFangSC-Medium;
+                            font-weight:600;
+                            color:rgba(51,51,51,1);
+                            margin-bottom: px2rem(20px);
+                        }
+                        .p2{
+                            margin-bottom: px2rem(29px);
+                            span{
+                                font-size:px2rem(26px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:400;
+                                color:rgba(102,102,102,1);
+                                margin-right: px2rem(31px);
+                            }
+                            input{
+                                border: none;
+                                width: px2rem(390px);
+                                font-size:px2rem(26px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:400;
+                                color:rgba(153,153,153,1);
+                                opacity:0.7;
+                            }
+                        }
+                        .p3{
+                            span{
+                                font-size:px2rem(26px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:400;
+                                color:rgba(102,102,102,1);
+                                margin-right: px2rem(31px);
+                            }
+                            input{
+                                width: px2rem(390px);
+                                border: none;
+                                font-size:px2rem(26px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:400;
+                                color:rgba(153,153,153,1);
+                                opacity:0.7;
+                            }
+                        }
+                    }
+                    .itemthir{
+                        .p1{
+                            font-size:px2rem(28px);
+                            font-family:PingFangSC-Medium;
+                            font-weight:600;
+                            color:rgba(51,51,51,1);
+                            margin-bottom: px2rem(20px);
+                        }
+                        .p2{
+                            span{
+                                display: inline-block;
+                                height: px2rem(42px);
+                                border-radius: px2rem(42px);
+                                color: #999;
+                                border: 1px solid #999;
+                                line-height: px2rem(36px);
+                                margin-right: px2rem(30px);
+                                padding: px2rem(0px) px2rem(19px) px2rem(0px) px2rem(18px);
+                            }
+                            .spa{
+                                display: inline-block;
+                                height: px2rem(42px);
+                                border-radius: px2rem(42px);
+                                color: #fd7062;
+                                border: 1px solid #fd7062;
+                                line-height: px2rem(36px);
+                                margin-right: px2rem(30px);
+                                padding: px2rem(0px) px2rem(19px) px2rem(0px) px2rem(18px);
+                            }
+                        }
+                        .p3{
+                            font-size:px2rem(24px);
+                            font-family:PingFangSC-Regular;
+                            font-weight:400;
+                            color:rgba(102,102,102,1);
+                            margin-top: px2rem(30px);
+                        }
+                    }
+                }
+            }
+            .confirm{
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: px2rem(98px);
+                border-top: 1px solid #f8f8f8;
+                padding-left: px2rem(24px);
+                p{
+                    width: px2rem(702px);
+                    color: #fff;
+                    margin-top:px2rem(8px);
+                    font-weight: 600;
+                    font-size: px2rem(30px);
+                    height:px2rem(80px);
+                    border-radius: px2rem(40px);
+                    text-align: center;
+                    line-height: px2rem(80px);
+                    background:linear-gradient(90deg,rgba(253,112,98,1),rgba(253,149,98,1));
+                }
+            }
+        }
+        //地址编辑
+        #made_adress{
+            position:absolute;
+            top: 0;
+            left: 100%;
+            width: 100%;
+            height: 100%;
+            background: #f8f8f8;
+            overflow: auto;
+            //头部
+            .adress_title{
+                width: px2rem(750px);
+                height: px2rem(88px);
+                background: #fff;
+                position: fixed;
+                border-bottom: 1px solid #f8f8f8;
+                .writeorder{
+                    font-size:px2rem(36px);
+                    font-family:PingFangSC-Medium;
+                    font-weight:600;
+                    color:rgba(51,51,51,1);
+                    line-height:px2rem(88px);
+                    width: 100;
+                    height: 100%;
+                    text-align: center;
+                }
+                .h_back{
+                    display: inline-block;
+                    width: px2rem(44px);
+                    height: 100%;
+                    top: 0;
+                    position: absolute;
+                    left: px2rem(9px);
+                    font-size: px2rem(44px);
+                    line-height: px2rem(88px);
+                    text-align: center;
+                    color: #333;
+                }
+            }
+            //地址内容修改
+
+            //保存按钮
+            .save_ads{
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: px2rem(98px);
+                text-align: center;
+                line-height: px2rem(98px);
+                background:linear-gradient(135deg,rgba(253,112,98,1),rgba(253,149,98,1));
+                font-size:px2rem(36px);
+                font-family:PingFangSC-Medium;
+                font-weight:500;
+                color:rgba(254,254,254,1);
+            }
+        }
+        //
+        //选择地址
+        #change_adress{
+            position:absolute;
+            top: 0;
+            left: 100%;
+            width: 100%;
+            height: 100%;
+            background: #f8f8f8;
+            overflow: auto;
+
+            //头部
+            .adress_title{
+                width: px2rem(750px);
+                height: px2rem(88px);
+                background: #fff;
+                position: fixed;
+                border-bottom: 1px solid #f8f8f8;
+                .writeorder{
+                    font-size:px2rem(36px);
+                    font-family:PingFangSC-Medium;
+                    font-weight:600;
+                    color:rgba(51,51,51,1);
+                    line-height:px2rem(88px);
+                    width: 100;
+                    height: 100%;
+                    text-align: center;
+                }
+                .h_back{
+                    display: inline-block;
+                    width: px2rem(44px);
+                    height: 100%;
+                    top: 0;
+                    position: absolute;
+                    left: px2rem(9px);
+                    font-size: px2rem(44px);
+                    line-height: px2rem(88px);
+                    text-align: center;
+                    color: #333;
+                }
+            }
+            //地址
+            .ad_content{
+                margin-top: px2rem(88px);
+                width: px2rem(750px);
+                height: 88%;
+               overflow: auto;
+                .ad_item{
+                    margin-bottom: px2rem(20px);
+                    width: px2rem(750px);
+                    height: px2rem(168px);
+                    background: #fff;
+                    padding: px2rem(0px) px2rem(24px) 0 px2rem(23px);
+                    .sel{
+                        float: left;
+                        width: px2rem(44px);
+                        height: 100%;
+                        padding-top: px2rem(62px);
+                        margin-right: px2rem(28px);
+                        img{
+                            width: px2rem(44px);
+                            height: px2rem(44px);
+                        }
+                    }
+                    .name{
+                        float: left;
+                        width: px2rem(504px);
+                        margin-top: px2rem(27px);
+                        .user{
+                            :first-child{
+                                font-size:px2rem(30px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:400;
+                                color:rgba(51,51,51,1);
+                                line-height:px2rem(36px);
+                            }
+                            :nth-child(2){
+                                margin-left: px2rem(19px);
+                                margin-right: px2rem(29px);
+                                font-size:px2rem(26px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:400;
+                                color:rgba(102,102,102,1);
+                                line-height:px2rem(36px);
+                            }
+                            :nth-child(3){
+                                display: inline-block;
+                                width: px2rem(80px);
+                                height: px2rem(30px);
+                                background:rgba(253,149,98,.3);
+                                text-align: center;
+                                line-height: px2rem(30px);
+                                font-size:px2rem(24px);
+                                font-family:PingFangSC-Regular;
+                                font-weight:400;
+                                color:rgba(253,112,98,1);
+                            }
+                        }
+                        .user_adress{
+                            margin-top: px2rem(10px);
+                            font-size:px2rem(26px);
+                            font-family:PingFangSC-Regular;
+                            font-weight:400;
+                            color:rgba(51,51,51,1);
+                            line-height:px2rem(36px);
+                        }
+                    }
+                    .cha_adress{
+                        float: right;
+                        height: px2rem(50px);
+                        border-left: 2px solid #999;
+                        margin-top: px2rem(59px);
+                        padding-left: px2rem(36px);
+                        span{
+                            display: inline-block;
+                            line-height: px2rem(50px);
+                            font-size:px2rem(26px);
+                            font-family:PingFangSC-Regular;
+                            font-weight:400;
+                            color:rgba(153,153,153,1);
+                        }
+                    }
+                }
+            }
+            //添加地址按钮
+            .add_ads{
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: px2rem(98px);
+                text-align: center;
+                line-height: px2rem(98px);
+                background:linear-gradient(135deg,rgba(253,112,98,1),rgba(253,149,98,1));
+                font-size:px2rem(36px);
+                font-family:PingFangSC-Medium;
+                font-weight:500;
+                color:rgba(254,254,254,1);
+            }
+        }
+    } 
+}   

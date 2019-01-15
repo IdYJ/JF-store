@@ -1,0 +1,50 @@
+$('#invoice').on('click',function(){
+    $('#invoice_slide').css('display','block')
+})
+$('.confirm').on('click',function(){
+    $('#invoice_slide').css('display','none')
+})
+$('.inv_item').on('click','span',function(){
+    $('.inv_item span').attr('class','');
+    $(this).attr('class','spa')
+    //第一个判断
+    if($(this).text()=='电子普通发票'){
+        if($('.itemfir .spa').text()=='个人'){
+            $('.slide_box').css('height','12.35rem');
+        }
+        else{
+            $('.slide_box').css('height','14.61rem');
+        }
+        $('.out_item').css('display','block')
+        $('.itemfir').on('click','span',function(){
+            $('.itemfir span').attr('class','');
+            $(this).attr('class','spa')
+            //第二个判断
+            if($(this).text()=='单位'){
+                $('.danwei').css('display','block')
+                $('.slide_box').css('height','14.61rem');
+            }
+            else{
+                $('.danwei').css('display','none')
+                $('.slide_box').css('height','12.35rem');
+            }
+        })
+        $('.itemthir').on('click','span',function(){
+            $('.itemthir span').attr('class','');
+            $(this).attr('class','spa')
+        })
+    }
+    else{
+        $('.slide_box').css('height','4.77rem');
+        $('.out_item').css('display','none')
+    }
+})
+//选择收货地址返回按钮
+$('#change_adress').on('click','.h_back',function(){
+    $('#change_adress').animate({'left':'10rem'},300,'linear')
+})
+//选择地址
+$('.fa-angle-right').on('click',function(){
+    $('#change_adress').animate({'left':'0'},300,'linear')
+})
+//14.61

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>填写订单</title>
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../scss/order.css">
+</head>
+<style>
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+</style>
+<body>
+    <!--头部-->
+    <div id="header">
+        <p class="writeorder">填写订单</p>
+        <span class="h_back">
+            <i class="fa fa-angle-left" aria-hidden="true"></i> 
+        </span>
+    </div>
+    <div id="od_content">
+        
+        <!--用户-->
+        <div id="order_user">
+            <div class="u_name">
+                <span>吴江花</span>
+                <span>13929876543</span>
+            </div>
+            <div class="u_adress">
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                <span>广东省广州市天河区棠下路上社东升大街50号</span>
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            </div>
+        </div>
+        <!--商品-->
+        <div id="order_goods">
+            <div class="pay_goods">
+                <div class="g_detail">
+                    <img src="../img/timg.jpg" alt="">
+                    <div class="goods">
+                        <p class="goods_title">爱他美金装幼儿配方奶粉，宝宝不上火补充多种营养维生素</p>
+                        <div class="goods_pri">
+                            <p class="pone">
+                                <span>3000</span>
+                                <span>积分+</span>
+                                <span>￥</span>
+                                <span>65</span>
+                                <span>.00</span>
+                            </p>
+                            <p class="psec">
+                                <span>精简版</span>
+                                <span>黑色 x 1</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delivery">
+                    <p>配送</p>
+                    <p>快递运输</p>
+                </div>
+                <div class="message">
+                    <p>留言</p>
+                    <input type="text" name="" id="" placeholder="建议留言前先与客服沟通确认">
+                </div>
+            </div>
+            <div class="pay_goods">
+                <div class="g_detail">
+                    <img src="../img/timg.jpg" alt="">
+                    <div class="goods">
+                        <p class="goods_title">爱他美金装幼儿配方奶粉，宝宝不上火补充多种营养维生素</p>
+                        <div class="goods_pri">
+                            <p class="pone">
+                                <span>3000</span>
+                                <span>积分+</span>
+                                <span>￥</span>
+                                <span>65</span>
+                                <span>.00</span>
+                            </p>
+                            <p class="psec">
+                                <span>精简版</span>
+                                <span>黑色 x 1</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delivery">
+                    <p>配送</p>
+                    <p>快递运输</p>
+                </div>
+                <div class="message">
+                    <p>留言</p>
+                    <input type="text" name="" id="" placeholder="建议留言前先与客服沟通确认">
+                </div>
+            </div>
+            <div class="pay_goods">
+                <div class="g_detail">
+                    <img src="../img/timg.jpg" alt="">
+                    <div class="goods">
+                        <p class="goods_title">爱他美金装幼儿配方奶粉，宝宝不上火补充多种营养维生素</p>
+                        <div class="goods_pri">
+                            <p class="pone">
+                                <span>3000</span>
+                                <span>积分+</span>
+                                <span>￥</span>
+                                <span>65</span>
+                                <span>.00</span>
+                            </p>
+                            <p class="psec">
+                                <span>精简版</span>
+                                <span>黑色 x 1</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delivery">
+                    <p>配送</p>
+                    <p>快递运输</p>
+                </div>
+                <div class="message">
+                    <p>留言</p>
+                    <input type="text" name="" id="" placeholder="建议留言前先与客服沟通确认">
+                </div>
+            </div>
+        </div>
+        <!--发票-->
+        <div id="invoice">
+                <p class="p1">发票</p>
+                <p class="p2">
+                    <span>不开发票</span>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </p>
+        </div>
+        <!--结算-->
+        <div id="settlement">
+            <div class="money">
+                <p>订单金额</p>
+                <p>￥399.00</p>
+            </div>
+            <div class="jifen">
+                <p>订单积分</p>
+                <p>9970积分</p>
+            </div>
+            <div class="freight">
+                <p>运费</p>
+                <p>+￥0.00</p>
+            </div>
+        </div>
+    </div>
+    <!--点击发票-->
+    <div id="invoice_slide">
+        <div class="slide_box">
+            <p class="title">发票</p>
+            <div class="inv_item">
+                <p>发票类型</p>
+                <span class="spa">不开发票</span><span>电子普通发票</span>
+            </div>
+            <div class="out_item">
+                <p class="introduce">电子发票与纸质普通发票具备同等法律效力，可支持报销入账</p>
+                <div class="itemfir item">
+                    <p class="p1">发票抬头</p>
+                    <p class="p2">
+                        <span class="spa">个人</span>
+                        <span>单位</span>
+                    </p>
+                    <div class="danwei">
+                        <input type="text" name="" id="" placeholder="请填写单位名称">
+                        <input type="text" name="" id="" placeholder="请填写纳税人识别码">
+                    </div>
+                </div>
+                <div class="itemsec item">
+                    <p class="p1">收票人信息</p>
+                    <p class="p2"><span>收票人手机</span><input type="text" name="" id="" placeholder="可通过手机号在发票服务平台查询"></p>
+                    <p class="p3"><span>收票人邮箱</span><input type="text" name="" id="" placeholder="用来接收电子发票邮箱，可选填"></p>
+                </div>
+                <div class="itemthir item">
+                    <p class="p1">发票内容</p>
+                    <p class="p2">
+                        <span class="spa">商品明细</span>
+                        <span>商品类别</span>
+                    </p>
+                    <p class="p3">发票内容将显示详情上商品名称与价格信息</p>
+                </div>
+            </div>
+        </div>
+        <div class="confirm">
+            <p>确定</p>
+        </div>
+    </div>
+    <!--编辑地址-->
+    <div id="made_adress">
+        <!--头部-->
+        <div class="adress_title">
+            <p class="writeorder">编辑收货地址</p>
+            <span class="h_back">
+                <i class="fa fa-angle-left" aria-hidden="true"></i> 
+            </span>
+        </div>
+        <div class="tochange">
+            
+        </div>
+        <div class="save_ads">
+            确认保存
+        </div>
+    </div>
+
+    <!--地址管理-->
+    <div id="change_adress">
+        <!--头部-->
+        <div class="adress_title">
+            <p class="writeorder">选择收货地址</p>
+            <span class="h_back">
+                <i class="fa fa-angle-left" aria-hidden="true"></i> 
+            </span>
+        </div>
+        <div class="ad_content">
+            <div class="ad_item">
+                <div class="sel">
+                    <img src="../img/c_checkbox_off.png" alt="">
+                </div>
+                <div class="name">
+                    <p class="user">
+                        <span>吴江花</span>
+                        <span>1213234343</span>
+                        <span>默认</span>
+                    </p>
+                    <p class="user_adress">
+                        广东省 广州市 天河区 棠下街道 上社东升大街50号 
+                    </p>
+                </div>
+                <div class="cha_adress">
+                    <span>编辑</span>
+                </div>
+            </div>
+            <div class="ad_item">
+                <div class="sel">
+                    <img src="../img/c_checkbox_off.png" alt="">
+                </div>
+                <div class="name">
+                    <p class="user">
+                        <span>吴江花</span>
+                        <span>1213234343</span>
+                    </p>
+                    <p class="user_adress">
+                        广东省 广州市 天河区 棠下街道 上社东升大街50号 
+                    </p>
+                </div>
+                <div class="cha_adress">
+                    <span>编辑</span>
+                </div>
+            </div>
+            <div class="ad_item">
+                    <div class="sel">
+                        <img src="../img/c_checkbox_off.png" alt="">
+                    </div>
+                    <div class="name">
+                        <p class="user">
+                            <span>吴江花</span>
+                            <span>1213234343</span>
+                        </p>
+                        <p class="user_adress">
+                            广东省 广州市 天河区 棠下街道 上社东升大街50号 
+                        </p>
+                    </div>
+                    <div class="cha_adress">
+                        <span>编辑</span>
+                    </div>
+                </div>
+                <div class="ad_item">
+                        <div class="sel">
+                            <img src="../img/c_checkbox_off.png" alt="">
+                        </div>
+                        <div class="name">
+                            <p class="user">
+                                <span>吴江花</span>
+                                <span>1213234343</span>
+                            </p>
+                            <p class="user_adress">
+                                广东省 广州市 天河区 棠下街道 上社东升大街50号 
+                            </p>
+                        </div>
+                        <div class="cha_adress">
+                            <span>编辑</span>
+                        </div>
+                    </div>
+                    <div class="ad_item">
+                            <div class="sel">
+                                <img src="../img/c_checkbox_off.png" alt="">
+                            </div>
+                            <div class="name">
+                                <p class="user">
+                                    <span>吴江花</span>
+                                    <span>1213234343</span>
+                                </p>
+                                <p class="user_adress">
+                                    广东省 广州市 天河区 棠下街道 上社东升大街50号 
+                                </p>
+                            </div>
+                            <div class="cha_adress">
+                                <span>编辑</span>
+                            </div>
+                        </div>
+                        <div class="ad_item">
+                                <div class="sel">
+                                    <img src="../img/c_checkbox_off.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p class="user">
+                                        <span>吴江花</span>
+                                        <span>1213234343</span>
+                                    </p>
+                                    <p class="user_adress">
+                                        广东省 广州市 天河区 棠下街道 上社东升大街50号 
+                                    </p>
+                                </div>
+                                <div class="cha_adress">
+                                    <span>编辑</span>
+                                </div>
+                            </div>
+                            <div class="ad_item">
+                                    <div class="sel">
+                                        <img src="../img/c_checkbox_off.png" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <p class="user">
+                                            <span>吴江花</span>
+                                            <span>1213234343</span>
+                                        </p>
+                                        <p class="user_adress">
+                                            广东省 广州市 天河区 棠下街道 上社东升大街50号 
+                                        </p>
+                                    </div>
+                                    <div class="cha_adress">
+                                        <span>编辑</span>
+                                    </div>
+                                </div>
+                                <div class="ad_item">
+                                    <div class="sel">
+                                        <img src="../img/c_checkbox_off.png" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <p class="user">
+                                            <span>吴江花</span>
+                                            <span>1213234343</span>
+                                        </p>
+                                        <p class="user_adress">
+                                            广东省 广州市 天河区 棠下街道 上社东升大街50号 
+                                        </p>
+                                    </div>
+                                    <div class="cha_adress">
+                                        <span>编辑</span>
+                                    </div>
+                                </div>
+                                
+        </div>
+        <div class="add_ads">
+            添加新地址
+        </div>
+    </div>
+    <!--底部提交订单-->
+    <div id="order_footer">
+        <p class="submit">提交订单</p>
+        <p class="f_price">
+            <span>3000</span>
+            <span>积分+</span>
+            <span>￥</span>
+            <span>65</span>
+            <span>.00</span>            
+        </p>
+        <p class="total">
+            合计：
+        </p>
+    </div>
+</body>
+</html>
+<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"
+></script>
+<script src="../js/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+<script src="../js/order.js"></script>
