@@ -1,0 +1,268 @@
+$design-width: 750px;
+
+@function px2rem( $px )
+{
+@return $px/$design-width*10 + rem; //对应js 
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        background: #f8f8f8;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        //头部
+        #header{
+            width: 100%;
+            height: px2rem(88px);
+            background: #fff;
+            position: fixed;
+            border-bottom: 1px solid #f8f8f8;
+            .writeorder{
+                font-size:px2rem(36px);
+                font-family:PingFangSC-Medium;
+                font-weight:600;
+                color:rgba(51,51,51,1);
+                line-height:px2rem(88px);
+                width: 100;
+                height: 100%;
+                text-align: center;
+            }
+            .h_back{
+                display: inline-block;
+                width: px2rem(44px);
+                height: 100%;
+                top: 0;
+                position: absolute;
+                left: px2rem(9px);
+                font-size: px2rem(44px);
+                line-height: px2rem(88px);
+                text-align: center;
+                color: #333;
+            }
+        }
+        //返回按钮
+        #bk_confirm{
+            z-index: 1000;
+            width: 100%;
+            height: 100%;
+            background:rgba(153,153,153,.5);
+            position: absolute;
+            left: 0;
+            top: 100%;
+            bottom: 0;
+            right: 0;
+            .toast{
+                position: absolute;
+                width: px2rem(540px);
+                height:px2rem(314px);
+                background: #fff;
+                border-radius: px2rem(10px);
+                top: px2rem(510px);
+                left: px2rem(105px);
+                .top{
+                    text-align: center;
+                    border-bottom: px2rem(1px) solid #f8f8f8;
+                    width: 100%;
+                    :first-child{
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(102,102,102,1);
+                        line-height:px2rem(42px);
+                        margin-top: px2rem(27px);
+                        margin-bottom: px2rem(50px);
+                    }
+                    :last-child{
+                        padding-left: px2rem(23px);
+                        padding-right: px2rem(23px);
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                        line-height:px2rem(42px);
+                        margin-bottom: px2rem(20px);
+                    }  
+                }
+                .bottom{
+                    width: 100%;
+                    display: flex;
+                    height: px2rem(88px);
+                    span{
+                        text-align: center;
+                        width: 50%;
+                        display: inline-block;
+                        font-size:px2rem(30px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                        line-height:px2rem(88px);
+                        height: px2rem(88px);
+                    }
+                    :first-child{
+                        border-right: px2rem(1px) solid #f8f8f8;;
+                    }
+                }
+            }
+        }
+        //content
+        #pay_content{
+            margin-top:px2rem(88px);
+            overflow: auto;
+            width: 100%;
+            height: 93%;
+            //流程图
+            .pay_process{
+                width: 100%;
+                height: px2rem(186px);
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                padding-top: px2rem(30px);
+                .proce{
+                    width: px2rem(120px);
+                    .pon{
+                        margin-left: px2rem(15px);
+                        width: px2rem(80px);
+                        height: px2rem(80px);
+                        border-radius: 50%;
+                        text-align: center;
+                        line-height: px2rem(80px);
+                        color: #fff;
+                        font-size: px2rem(40px);
+                        background:rgba(253,112,98,1);
+                    }
+                    .pone{
+                        margin-left: px2rem(15px);
+                        width: px2rem(80px);
+                        height: px2rem(80px);
+                        border-radius: 50%;
+                        text-align: center;
+                        line-height: px2rem(78px);
+                        color: #999;
+                        border: px2rem(1px) solid #999;
+                        font-size: px2rem(40px);
+                        background:#fff;
+                    }
+                    .ptw{
+                        margin-top: px2rem(19px);
+                        color:rgba(253,112,98,1);
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                    }
+                    .ptwo{
+                        margin-top: px2rem(19px);
+                        color: #999;
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                    }
+                }
+
+                .pr1{
+                    border: 1px solid #fdb262;
+                    width: px2rem(120px);
+                    height: 0;
+                    margin-top: px2rem(35px)
+                }
+                .pr2{
+                    border: 1px solid #666;
+                    width: px2rem(120px);
+                    height: 0;
+                    margin-top: px2rem(35px)
+                }
+            }
+            //订单号
+            .order_deta{
+                margin-top: px2rem(20px);
+                background: #fff;
+                padding-left: px2rem(25px);
+                padding-right: px2rem(25px);
+                width: 100%;
+                p{
+                    width: 100%;
+                    height: px2rem(110px);
+                    border-bottom: px2rem(1px) solid #f8f8f8;
+                    :first-child{
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                        line-height:px2rem(110px);
+                    }
+                    :last-child{
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(102,102,102,1);
+                        line-height:px2rem(42px);
+                        margin-left: px2rem(40px);
+                    }
+                    .span2{
+                        margin-left: px2rem(68px)
+                    }
+                }
+            }
+            //支付方式
+            .payment{
+                width: 100%;
+                background: #fff;
+                margin-top: px2rem(20px);
+                padding-left: px2rem(25px);
+                padding-right: px2rem(25px);
+                p{
+                    width: 100%;
+                    height: px2rem(110px);
+                    border-bottom: 1px solid #f8f8f8;
+                    line-height: px2rem(110px);
+                    position: relative;
+                    .img1{
+                        width: px2rem(80px);
+                        height: px2rem(80px);
+                        margin-top: px2rem(15px);
+                    }
+                    .spa{
+                        vertical-align: top;
+                        margin-left: px2rem(28px);
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                    }
+                    .tuijian{
+                        vertical-align: top;
+                        border: 1px solid #00c800;
+                        color: #00c800;
+                        font-size:px2rem(20px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        margin-left: px2rem(10px);
+                    }
+                    .img2{
+                        width: px2rem(44px);
+                        height: px2rem(44px);
+                        position: absolute;
+                        right: 0;
+                        top: px2rem(33px);
+                    }
+                }
+            }
+        }
+        #pay_footer{
+            width: 100%;
+            height: px2rem(98px);
+            position: fixed;
+            bottom: 0;
+            background:linear-gradient(135deg,rgba(253,112,98,1),rgba(253,149,98,1));
+            font-size:px2rem(36px);
+            font-family:PingFangSC-Medium;
+            font-weight:500;
+            color:rgba(254,254,254,1);
+            line-height:px2rem(98px);
+            text-align: center;
+        }
+    }
+}

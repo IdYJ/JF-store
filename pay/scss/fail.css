@@ -1,0 +1,82 @@
+html {
+  width: 100%;
+  height: 100%; }
+  html body {
+    background: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden; }
+    html body #header {
+      width: 100%;
+      height: 1.1733333333rem;
+      background: #fff;
+      position: fixed;
+      border-bottom: 1px solid #f8f8f8; }
+      html body #header .writeorder {
+        font-size: 0.48rem;
+        font-family: PingFangSC-Medium;
+        font-weight: 600;
+        color: #333333;
+        line-height: 1.1733333333rem;
+        width: 100;
+        height: 100%;
+        text-align: center; }
+      html body #header .h_back {
+        display: inline-block;
+        width: 0.5866666667rem;
+        height: 100%;
+        top: 0;
+        position: absolute;
+        left: 0.12rem;
+        font-size: 0.5866666667rem;
+        line-height: 1.1733333333rem;
+        text-align: center;
+        color: #333; }
+    html body #fail_content {
+      width: 100%;
+      margin-top: 2.24rem; }
+      html body #fail_content .image {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center; }
+        html body #fail_content .image img {
+          width: 3.3333333333rem;
+          height: 3.3333333333rem; }
+      html body #fail_content .pay_fail {
+        width: 100%;
+        text-align: center;
+        font-size: 0.4266666667rem;
+        font-family: PingFangSC-Medium;
+        font-weight: 600;
+        color: #333333;
+        line-height: 0.8rem; }
+      html body #fail_content .fail_reason {
+        width: 100%;
+        text-align: center;
+        font-size: 0.3733333333rem;
+        font-family: PingFangSC-Medium;
+        font-weight: 600;
+        color: #333333;
+        line-height: 0.8rem; }
+        html body #fail_content .fail_reason span {
+          margin-left: 0.2rem; }
+      html body #fail_content .time_back {
+        width: 10rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 0.6666666667rem; }
+        html body #fail_content .time_back p {
+          display: inline-block;
+          width: 3.3333333333rem;
+          height: 1.0133333333rem;
+          border: 0.0266666667rem solid #fd9562;
+          border-radius: 0.5066666667rem;
+          text-align: center;
+          line-height: 1.0133333333rem;
+          font-size: 0.4266666667rem;
+          font-family: PingFangSC-Medium;
+          font-weight: 600;
+          color: #fd9562; }
+
+/*# sourceMappingURL=fail.css.map */

@@ -1,0 +1,100 @@
+$design-width: 750px;
+
+@function px2rem( $px )
+{
+@return $px/$design-width*10 + rem; //对应js 
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        background: #f8f8f8;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        //头部
+        #header{
+            width: 100%;
+            height: px2rem(88px);
+            background: #fff;
+            position: fixed;
+            border-bottom: 1px solid #f8f8f8;
+            .writeorder{
+                font-size:px2rem(36px);
+                font-family:PingFangSC-Medium;
+                font-weight:600;
+                color:rgba(51,51,51,1);
+                line-height:px2rem(88px);
+                width: 100;
+                height: 100%;
+                text-align: center;
+            }
+            .h_back{
+                display: inline-block;
+                width: px2rem(44px);
+                height: 100%;
+                top: 0;
+                position: absolute;
+                left: px2rem(9px);
+                font-size: px2rem(44px);
+                line-height: px2rem(88px);
+                text-align: center;
+                color: #333;
+            }
+        }
+        #fail_content{
+            width: 100%;
+            margin-top: px2rem(168px);
+            .image{
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                img{
+                    width: px2rem(250px);
+                    height: px2rem(250px);
+                }
+            }
+            .pay_fail{
+                width: 100%;
+                text-align: center;
+                font-size:px2rem(32px);
+                font-family:PingFangSC-Medium;
+                font-weight:600;
+                color:rgba(51,51,51,1);
+                line-height:px2rem(60px);
+            }
+            .fail_reason{
+                width: 100%;
+                text-align: center;
+                font-size:px2rem(28px);
+                font-family:PingFangSC-Medium;
+                font-weight:600;
+                color:rgba(51,51,51,1);
+                line-height:px2rem(60px);
+                span{
+                    margin-left: px2rem(15px);
+                }
+            }
+            .time_back{
+                width: px2rem(750px);
+                text-align: center;
+                margin: 0 auto;
+                margin-top: px2rem(50px);
+                p{
+                    display: inline-block;
+                    width: px2rem(250px);
+                    height: px2rem(76px);
+                    border: px2rem(2px) solid #fd9562;
+                    border-radius: px2rem(38px);
+                    text-align: center;
+                    line-height: px2rem(76px);
+                    font-size:px2rem(32px);
+                    font-family:PingFangSC-Medium;
+                    font-weight:600;
+                    color:rgba(253,149,98,1);
+                }
+            }
+        }
+    }
+}

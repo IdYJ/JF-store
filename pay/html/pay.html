@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付订单</title>
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../scss/pay.css">
+</head>
+<style>
+    *{
+        margin: 0;padding: 0;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+    <!--头部-->
+    <div id="header">
+        <p class="writeorder">支付订单</p>
+        <span class="h_back">
+            <i class="fa fa-angle-left" aria-hidden="true"></i> 
+        </span>
+    </div>
+    <!--确定返回-->
+    <div id="bk_confirm">
+        <div class="toast" >
+            <div class="top">
+                <p>确定离开</p>
+                <p>您的订单半小时内华为支付将被取消，请尽快完成支付。</p>
+            </div>
+            <div class="bottom">
+                <span class="goo">继续支付</span>
+                <span class="gob">确定离开</span>
+            </div>
+        </div>
+    </div>
+    <!--内容-->
+    <div id="pay_content">
+        <!---->
+        <div class="pay_process">
+            <div class="processfir proce">
+                <p class="pon"><i class="fa fa-file-text" aria-hidden="true"></i></p>
+                <p class="ptw">生成订单</p>
+            </div>
+            <div class="pr1 proce"></div>
+            <div class="processsec proce">
+                <p class="pone"><i class="fa fa-money" aria-hidden="true"></i></p>
+                <p class="ptwo">支付订单</p>
+            </div>
+            <div class="pr2 proce"></div>
+            <div class="processthir proce">
+                <p class="pone"><i class="fa fa-truck" aria-hidden="true"></i></p>
+                <p class="ptwo">商家发货</p>
+            </div>
+        </div>
+
+        <!---->
+        <div class="order_deta">
+            <p>
+                <span>订单号</span>
+                <span class="span2">20190103070921</span>
+            </p>
+            <p>
+                <span>订单状态</span>
+                <span>待支付</span>
+            </p>
+            <p class="order_money">
+                <span >订单金额</span>
+                <span class="deta_money">￥ 20.00</span>
+            </p>
+            <p>
+                <span>待付积分</span>
+                <span>9970</span>
+            </p>
+        </div>
+        <div class="payment">
+            <p>支付方式</p>
+            <p class="p_pay">
+                <img src="../img/vx.png" alt="" class="img1">
+                <span class="spa">微信支付</span>
+                <span class="tuijian">   推荐   </span>
+                <img src="../img/c_checkbox_on.png" alt="" class="img2">
+            </p>
+            <p class="p_pay">
+                <img src="../img/zfb.png" alt="" class="img1">
+                <span class="spa">支付宝支付</span>
+                <img src="../img/c_checkbox_off.png" alt="" class="img2">
+            </p>
+            <p class="p_pay">
+                <img src="../img/yl.png" alt="" class="img1">
+                <span class="spa">银联支付（6493）</span>
+                <img src="../img/c_checkbox_off.png" alt="" class="img2">
+            </p>
+        </div>
+    </div>
+    
+    <!--支付按钮-->
+    <div id="pay_footer">
+        确定支付
+    </div>
+</body>
+</html>
+<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"
+></script>
+<script src="../js/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+<script src="../js/pay.js"></script>

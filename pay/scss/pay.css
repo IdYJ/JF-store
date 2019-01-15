@@ -1,0 +1,223 @@
+html {
+  width: 100%;
+  height: 100%; }
+  html body {
+    background: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden; }
+    html body #header {
+      width: 100%;
+      height: 1.1733333333rem;
+      background: #fff;
+      position: fixed;
+      border-bottom: 1px solid #f8f8f8; }
+      html body #header .writeorder {
+        font-size: 0.48rem;
+        font-family: PingFangSC-Medium;
+        font-weight: 600;
+        color: #333333;
+        line-height: 1.1733333333rem;
+        width: 100;
+        height: 100%;
+        text-align: center; }
+      html body #header .h_back {
+        display: inline-block;
+        width: 0.5866666667rem;
+        height: 100%;
+        top: 0;
+        position: absolute;
+        left: 0.12rem;
+        font-size: 0.5866666667rem;
+        line-height: 1.1733333333rem;
+        text-align: center;
+        color: #333; }
+    html body #bk_confirm {
+      z-index: 1000;
+      width: 100%;
+      height: 100%;
+      background: rgba(153, 153, 153, 0.5);
+      position: absolute;
+      left: 0;
+      top: 100%;
+      bottom: 0;
+      right: 0; }
+      html body #bk_confirm .toast {
+        position: absolute;
+        width: 7.2rem;
+        height: 4.1866666667rem;
+        background: #fff;
+        border-radius: 0.1333333333rem;
+        top: 6.8rem;
+        left: 1.4rem; }
+        html body #bk_confirm .toast .top {
+          text-align: center;
+          border-bottom: 0.0133333333rem solid #f8f8f8;
+          width: 100%; }
+          html body #bk_confirm .toast .top :first-child {
+            font-size: 0.3733333333rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #666666;
+            line-height: 0.56rem;
+            margin-top: 0.36rem;
+            margin-bottom: 0.6666666667rem; }
+          html body #bk_confirm .toast .top :last-child {
+            padding-left: 0.3066666667rem;
+            padding-right: 0.3066666667rem;
+            font-size: 0.3733333333rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #333333;
+            line-height: 0.56rem;
+            margin-bottom: 0.2666666667rem; }
+        html body #bk_confirm .toast .bottom {
+          width: 100%;
+          display: flex;
+          height: 1.1733333333rem; }
+          html body #bk_confirm .toast .bottom span {
+            text-align: center;
+            width: 50%;
+            display: inline-block;
+            font-size: 0.4rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #333333;
+            line-height: 1.1733333333rem;
+            height: 1.1733333333rem; }
+          html body #bk_confirm .toast .bottom :first-child {
+            border-right: 0.0133333333rem solid #f8f8f8; }
+    html body #pay_content {
+      margin-top: 1.1733333333rem;
+      overflow: auto;
+      width: 100%;
+      height: 93%; }
+      html body #pay_content .pay_process {
+        width: 100%;
+        height: 2.48rem;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        padding-top: 0.4rem; }
+        html body #pay_content .pay_process .proce {
+          width: 1.6rem; }
+          html body #pay_content .pay_process .proce .pon {
+            margin-left: 0.2rem;
+            width: 1.0666666667rem;
+            height: 1.0666666667rem;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 1.0666666667rem;
+            color: #fff;
+            font-size: 0.5333333333rem;
+            background: #fd7062; }
+          html body #pay_content .pay_process .proce .pone {
+            margin-left: 0.2rem;
+            width: 1.0666666667rem;
+            height: 1.0666666667rem;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 1.04rem;
+            color: #999;
+            border: 0.0133333333rem solid #999;
+            font-size: 0.5333333333rem;
+            background: #fff; }
+          html body #pay_content .pay_process .proce .ptw {
+            margin-top: 0.2533333333rem;
+            color: #fd7062;
+            font-size: 0.3733333333rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400; }
+          html body #pay_content .pay_process .proce .ptwo {
+            margin-top: 0.2533333333rem;
+            color: #999;
+            font-size: 0.3733333333rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400; }
+        html body #pay_content .pay_process .pr1 {
+          border: 1px solid #fdb262;
+          width: 1.6rem;
+          height: 0;
+          margin-top: 0.4666666667rem; }
+        html body #pay_content .pay_process .pr2 {
+          border: 1px solid #666;
+          width: 1.6rem;
+          height: 0;
+          margin-top: 0.4666666667rem; }
+      html body #pay_content .order_deta {
+        margin-top: 0.2666666667rem;
+        background: #fff;
+        padding-left: 0.3333333333rem;
+        padding-right: 0.3333333333rem;
+        width: 100%; }
+        html body #pay_content .order_deta p {
+          width: 100%;
+          height: 1.4666666667rem;
+          border-bottom: 0.0133333333rem solid #f8f8f8; }
+          html body #pay_content .order_deta p :first-child {
+            font-size: 0.3733333333rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #333333;
+            line-height: 1.4666666667rem; }
+          html body #pay_content .order_deta p :last-child {
+            font-size: 0.3733333333rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #666666;
+            line-height: 0.56rem;
+            margin-left: 0.5333333333rem; }
+          html body #pay_content .order_deta p .span2 {
+            margin-left: 0.9066666667rem; }
+      html body #pay_content .payment {
+        width: 100%;
+        background: #fff;
+        margin-top: 0.2666666667rem;
+        padding-left: 0.3333333333rem;
+        padding-right: 0.3333333333rem; }
+        html body #pay_content .payment p {
+          width: 100%;
+          height: 1.4666666667rem;
+          border-bottom: 1px solid #f8f8f8;
+          line-height: 1.4666666667rem;
+          position: relative; }
+          html body #pay_content .payment p .img1 {
+            width: 1.0666666667rem;
+            height: 1.0666666667rem;
+            margin-top: 0.2rem; }
+          html body #pay_content .payment p .spa {
+            vertical-align: top;
+            margin-left: 0.3733333333rem;
+            font-size: 0.3733333333rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #333333; }
+          html body #pay_content .payment p .tuijian {
+            vertical-align: top;
+            border: 1px solid #00c800;
+            color: #00c800;
+            font-size: 0.2666666667rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            margin-left: 0.1333333333rem; }
+          html body #pay_content .payment p .img2 {
+            width: 0.5866666667rem;
+            height: 0.5866666667rem;
+            position: absolute;
+            right: 0;
+            top: 0.44rem; }
+    html body #pay_footer {
+      width: 100%;
+      height: 1.3066666667rem;
+      position: fixed;
+      bottom: 0;
+      background: linear-gradient(135deg, #fd7062, #fd9562);
+      font-size: 0.48rem;
+      font-family: PingFangSC-Medium;
+      font-weight: 500;
+      color: #fefefe;
+      line-height: 1.3066666667rem;
+      text-align: center; }
+
+/*# sourceMappingURL=pay.css.map */
