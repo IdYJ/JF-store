@@ -1,0 +1,813 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\000037}}
+html {
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000310}}
+  html body {
+    background: #f8f8f8;
+    width: 100%;
+    position: relative;
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000315}}
+    html body #box {
+      height: 93%;
+      overflow: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000319}}
+      html body #box #fade_header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 1.1733333333rem;
+        color: rgba(153, 153, 153, 0);
+        background: rgba(255, 255, 255, 0);
+        z-index: 10000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000327}}
+        html body #box #fade_header .icon_right {
+          position: absolute;
+          font-size: 0.4rem;
+          display: inline-block;
+          right: 0.32rem;
+          top: 0.2666666667rem;
+          width: 0.8rem;
+          height: 0.8rem;
+          text-align: center;
+          line-height: 0.8rem;
+          font-weight: 100;
+          border-radius: 0.4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000342}}
+        html body #box #fade_header .goods {
+          position: absolute;
+          top: 0.36rem;
+          left: 3.4533333333rem;
+          font-size: 0.4533333333rem;
+          display: inline-block;
+          width: 0.9066666667rem;
+          height: 0.64rem;
+          line-height: 0.5333333333rem;
+          font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000355}}
+        html body #box #fade_header .content {
+          position: absolute;
+          top: 0.36rem;
+          right: 3.4533333333rem;
+          font-size: 0.4533333333rem;
+          display: inline-block;
+          width: 0.9066666667rem;
+          height: 0.64rem;
+          line-height: 0.5333333333rem;
+          font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000368}}
+        html body #box #fade_header .icon_left {
+          position: absolute;
+          font-size: 0.4rem;
+          display: inline-block;
+          left: 0.32rem;
+          top: 0.2666666667rem;
+          width: 0.8rem;
+          height: 0.8rem;
+          text-align: center;
+          line-height: 0.8rem;
+          font-weight: 100;
+          border-radius: 0.4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000384}}
+      html body #box #detail_swiper {
+        width: 100%;
+        height: 10rem;
+        background: #fff;
+        position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\0000389}}
+        html body #box #detail_swiper .icon_right {
+          font-size: 0.4rem;
+          position: fixed;
+          display: inline-block;
+          right: 0.32rem;
+          top: 0.2666666667rem;
+          width: 0.8rem;
+          height: 0.8rem;
+          text-align: center;
+          line-height: 0.8rem;
+          color: #fff;
+          font-weight: 100;
+          background: rgba(102, 102, 102, 0.5);
+          border-radius: 0.4rem;
+          z-index: 9999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003105}}
+        html body #box #detail_swiper .icon_left {
+          position: fixed;
+          font-size: 0.4rem;
+          display: inline-block;
+          left: 0.32rem;
+          top: 0.2666666667rem;
+          width: 0.8rem;
+          height: 0.8rem;
+          text-align: center;
+          line-height: 0.8rem;
+          color: #fff;
+          font-weight: 100;
+          background: rgba(102, 102, 102, 0.5);
+          border-radius: 0.4rem;
+          z-index: 9999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003121}}
+        html body #box #detail_swiper .icon_play {
+          position: absolute;
+          left: 4.1733333333rem;
+          top: 4.1733333333rem;
+          width: 1.6533333333rem;
+          height: 1.6533333333rem;
+          border: 2px solid #ccc;
+          border-radius: 1.6533333333rem;
+          text-align: center;
+          line-height: 1.5733333333rem;
+          font-size: 0.64rem;
+          color: #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003134}}
+        html body #box #detail_swiper video {
+          width: 100%;
+          height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003138}}
+        html body #box #detail_swiper img {
+          width: 100%;
+          height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003142}}
+        html body #box #detail_swiper .close_video {
+          z-index: 1000;
+          display: none;
+          width: 0.6666666667rem;
+          left: 4.6666666667rem;
+          position: absolute;
+          bottom: 0.9333333333rem;
+          font-size: 0.6666666667rem;
+          font-weight: 100;
+          color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003155}}
+      html body #box #detail_price {
+        width: 100%;
+        margin-top: 0.0266666667rem;
+        background: #fff;
+        position: relative;
+        padding: 0.4rem 0 0.4rem 0.3333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003163}}
+        html body #box #detail_price .price span {
+          height: 0.3733333333rem;
+          width: 1.4933333333rem;
+          color: #fd7062;
+          font-size: 0.48rem;
+          font-weight: 800; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003170}}
+        html body #box #detail_price .price del {
+          height: 0.24rem;
+          width: 1.12rem;
+          font-size: 0.32rem;
+          font-weight: 500;
+          color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003178}}
+        html body #box #detail_price .goods_title {
+          width: 7.5066666667rem;
+          height: 0.9333333333rem;
+          line-height: 0.56rem;
+          font-family: PingFangSC-Medium;
+          font-weight: 700;
+          color: #333333;
+          font-size: 0.4rem;
+          letter-spacing: 0.04rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003189}}
+        html body #box #detail_price .goods_content {
+          margin-top: 0.1333333333rem;
+          font-family: PingFangSC-Regular;
+          font-weight: 400;
+          font-size: 0.3466666667rem;
+          color: #666;
+          line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003197}}
+        html body #box #detail_price .icon_share {
+          position: absolute;
+          right: 0;
+          top: 1.16rem;
+          width: 1.5466666667rem;
+          height: 0.64rem;
+          background: #f2f2f2;
+          color: #666;
+          text-align: center;
+          line-height: 0.64rem;
+          border-top-left-radius: 0.32rem;
+          border-bottom-left-radius: 0.32rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003212}}
+      html body #box #roader {
+        margin-top: 0.2666666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003214}}
+        html body #box #roader .rod_first {
+          width: 100%;
+          height: 1.4666666667rem;
+          border-bottom: 1px solid #f2f2f2;
+          background: #fff;
+          padding: 0.5333333333rem 0.1466666667rem 0.56rem 0.3333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003220}}
+          html body #box #roader .rod_first :first-child {
+            font-size: 0.3466666667rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 600;
+            color: #333333;
+            line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003227}}
+          html body #box #roader .rod_first :nth-child(2) {
+            margin-left: 0.28rem;
+            font-size: 0.3466666667rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #666666;
+            line-height: 0.5333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003236}}
+        html body #box #roader .rod_second {
+          width: 100%;
+          border-bottom: 1px solid #f2f2f2;
+          height: 1.4666666667rem;
+          background: #fff;
+          position: relative;
+          padding: 0.5333333333rem 0.1466666667rem 0.56rem 0.3333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003244}}
+          html body #box #roader .rod_second :first-child {
+            font-size: 0.3466666667rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 600;
+            color: #333333;
+            line-height: 0.5333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003251}}
+          html body #box #roader .rod_second :nth-child(2) {
+            margin-left: 0.28rem;
+            font-size: 0.3466666667rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #666666;
+            line-height: 0.5333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003259}}
+          html body #box #roader .rod_second :nth-child(3) {
+            position: absolute;
+            bottom: 0.4666666667rem;
+            right: 0.2666666667rem;
+            color: #666;
+            font-size: 0.48rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003267}}
+        html body #box #roader .rod_third {
+          width: 100%;
+          border-bottom: 1px solid #f2f2f2;
+          height: 1.4666666667rem;
+          background: #fff;
+          position: relative;
+          padding: 0.5333333333rem 0.1466666667rem 0.56rem 0.3333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003275}}
+          html body #box #roader .rod_third :first-child {
+            font-size: 0.3466666667rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 600;
+            color: #333333;
+            line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003282}}
+          html body #box #roader .rod_third :nth-child(2) {
+            margin-left: 0.28rem;
+            font-size: 0.3466666667rem;
+            font-family: PingFangSC-Regular;
+            font-weight: 400;
+            color: #666666;
+            line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003290}}
+          html body #box #roader .rod_third :nth-child(3) {
+            position: absolute;
+            bottom: 0.4666666667rem;
+            right: 0.2666666667rem;
+            color: #666;
+            font-size: 0.48rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003300}}
+      html body #box #goods_pic {
+        margin-top: 0.2666666667rem;
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003303}}
+        html body #box #goods_pic img {
+          width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003308}}
+      html body #box #com_bottom {
+        width: 100%;
+        height: 0.88rem;
+        text-align: center;
+        line-height: 0.88rem;
+        font-size: 0.32rem;
+        color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003321}}
+    html body footer {
+      position: absolute;
+      background: #fff;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      border-top: 1px solid #f2f2f2;
+      height: 7%;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003331}}
+      html body footer .ft_left {
+        float: left;
+        width: 50%;
+        padding-top: 0.12rem;
+        color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003336}}
+        html body footer .ft_left .headphone {
+          float: left;
+          margin-left: 0.4666666667rem;
+          font-size: 0.16rem;
+          text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003341}}
+          html body footer .ft_left .headphone i {
+            font-size: 0.6133333333rem;
+            display: inline-block;
+            width: 0.64rem;
+            height: 0.64rem;
+            color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003349}}
+        html body footer .ft_left .star {
+          float: left;
+          margin-left: 0.9333333333rem;
+          font-size: 0.16rem;
+          text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003354}}
+          html body footer .ft_left .star i {
+            font-size: 0.6133333333rem;
+            display: inline-block;
+            width: 0.64rem;
+            height: 0.64rem;
+            color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003362}}
+        html body footer .ft_left .shopping-cart {
+          float: left;
+          margin-left: 0.9333333333rem;
+          font-size: 0.16rem;
+          text-align: center;
+          position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003368}}
+          html body footer .ft_left .shopping-cart i {
+            font-size: 0.6133333333rem;
+            display: inline-block;
+            width: 0.64rem;
+            height: 0.64rem;
+            color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003375}}
+          html body footer .ft_left .shopping-cart span {
+            width: 0.3733333333rem;
+            height: 0.3733333333rem;
+            background: #fd7062;
+            border-radius: 0.4rem;
+            text-align: center;
+            line-height: 0.4rem;
+            position: absolute;
+            bottom: 0.72rem;
+            left: 0.5733333333rem;
+            font-size: 0.24rem;
+            font-family: DIN-Bold;
+            font-weight: 400;
+            color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003392}}
+      html body footer .ft_right {
+        float: left;
+        width: 50%;
+        padding-top: 0.12rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003396}}
+        html body footer .ft_right .fr_box {
+          margin-left: 0.0666666667rem;
+          width: 4.8rem;
+          height: 1.0666666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003400}}
+          html body footer .ft_right .fr_box .left_car {
+            width: 2.4rem;
+            font-size: 0.4rem;
+            color: #fff;
+            text-align: center;
+            line-height: 1.0666666667rem;
+            height: 1.0666666667rem;
+            background: #fdb262;
+            border-top-left-radius: 0.5333333333rem;
+            border-bottom-left-radius: 0.5333333333rem;
+            float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003412}}
+          html body footer .ft_right .fr_box .right_buy {
+            font-size: 0.4rem;
+            color: #fff;
+            width: 2.4rem;
+            text-align: center;
+            line-height: 1.0666666667rem;
+            height: 1.0666666667rem;
+            border-top-right-radius: 0.5333333333rem;
+            border-bottom-right-radius: 0.5333333333rem;
+            background: #fd7062;
+            float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003428}}
+    html body #add_car {
+      display: none;
+      position: absolute;
+      z-index: 10000;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003438}}
+      html body #add_car .selected {
+        border: 2px solid #fd7062; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003441}}
+      html body #add_car .car_shadow {
+        width: 100%;
+        height: 100%;
+        background: #999999;
+        opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003447}}
+      html body #add_car .car_bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 54%;
+        background: white;
+        border-top-left-radius: 0.2666666667rem;
+        border-top-right-radius: 0.2666666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003455}}
+        html body #add_car .car_bottom .close {
+          position: absolute;
+          bottom: 8.6666666667rem;
+          right: 0.32rem;
+          font-weight: 100;
+          font-size: 0.5333333333rem;
+          color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003464}}
+        html body #add_car .car_bottom .car_select {
+          padding: 0.4rem 0.32rem 0 0.32rem;
+          width: 100%;
+          height: 86%;
+          border-bottom: 2px solid #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003469}}
+          html body #add_car .car_bottom .car_select .goods_img {
+            width: 100%;
+            height: 2.1866666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003472}}
+            html body #add_car .car_bottom .car_select .goods_img .img {
+              width: 2.1866666667rem;
+              height: 2.1866666667rem;
+              float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003476}}
+              html body #add_car .car_bottom .car_select .goods_img .img img {
+                width: 2.1866666667rem;
+                height: 2.1866666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003481}}
+            html body #add_car .car_bottom .car_select .goods_img .right_so {
+              float: left;
+              margin-left: 0.44rem;
+              padding-top: 0.5466666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003485}}
+              html body #add_car .car_bottom .car_select .goods_img .right_so .price {
+                float: left;
+                font-size: 0.48rem;
+                font-family: PingFangSC-Regular;
+                font-weight: 600;
+                color: #fdb262;
+                line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003493}}
+              html body #add_car .car_bottom .car_select .goods_img .right_so .select_other {
+                margin-top: 0.7866666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003495}}
+                html body #add_car .car_bottom .car_select .goods_img .right_so .select_other :first-child {
+                  font-size: 0.3733333333rem;
+                  color: #333;
+                  font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003500}}
+                html body #add_car .car_bottom .car_select .goods_img .right_so .select_other :nth-child(2) {
+                  margin-left: 0.2666666667rem;
+                  font-family: PingFangSC-Regular;
+                  font-size: 0.3733333333rem;
+                  color: #333;
+                  line-height: 0.56rem;
+                  font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003511}}
+          html body #add_car .car_bottom .car_select .goods_grade {
+            width: 100%;
+            margin-top: 0.2666666667rem;
+            padding-bottom: 0.3733333333rem;
+            border-bottom: 1px solid #f8f8f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003516}}
+            html body #add_car .car_bottom .car_select .goods_grade .grade {
+              font-size: 0.4266666667rem;
+              color: #333;
+              font-family: PingFangSC-Medium;
+              font-weight: 600;
+              line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003523}}
+            html body #add_car .car_bottom .car_select .goods_grade .grade_sel {
+              margin-top: 0.2666666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003525}}
+              html body #add_car .car_bottom .car_select .goods_grade .grade_sel span {
+                margin-right: 0.2666666667rem;
+                display: inline-block;
+                width: 1.6rem;
+                height: 0.56rem;
+                text-align: center;
+                line-height: 0.56rem;
+                background: #f2f2f2;
+                border-radius: 0.1333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003538}}
+          html body #add_car .car_bottom .car_select .goods_age {
+            width: 100%;
+            margin-top: 0.2666666667rem;
+            padding-bottom: 0.3733333333rem;
+            border-bottom: 1px solid #f8f8f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003543}}
+            html body #add_car .car_bottom .car_select .goods_age .age {
+              font-size: 0.4266666667rem;
+              color: #333;
+              font-family: PingFangSC-Medium;
+              font-weight: 600;
+              line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003550}}
+            html body #add_car .car_bottom .car_select .goods_age .age_sel {
+              margin-top: 0.2666666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003552}}
+              html body #add_car .car_bottom .car_select .goods_age .age_sel span {
+                margin-right: 0.2666666667rem;
+                display: inline-block;
+                width: 1.6rem;
+                height: 0.56rem;
+                text-align: center;
+                line-height: 0.56rem;
+                background: #f2f2f2;
+                border-radius: 0.1333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003564}}
+          html body #add_car .car_bottom .car_select .goods_num {
+            width: 100%;
+            margin-top: 0.2666666667rem;
+            padding-bottom: 0.3733333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003568}}
+            html body #add_car .car_bottom .car_select .goods_num .num {
+              float: left;
+              font-size: 0.4266666667rem;
+              color: #333;
+              font-family: PingFangSC-Medium;
+              font-weight: 600;
+              line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003576}}
+            html body #add_car .car_bottom .car_select .goods_num .change_num {
+              float: right;
+              border: 1px solid #999;
+              width: 2.2666666667rem;
+              text-align: center;
+              font-size: 0.2933333333rem;
+              line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003583}}
+              html body #add_car .car_bottom .car_select .goods_num .change_num .cut {
+                display: inline-block;
+                width: 0.48rem;
+                height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003590}}
+              html body #add_car .car_bottom .car_select .goods_num .change_num .number {
+                display: inline-block;
+                width: 0.9066666667rem;
+                height: 0.56rem;
+                border-left: 1px solid #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003597}}
+              html body #add_car .car_bottom .car_select .goods_num .change_num .add {
+                display: inline-block;
+                width: 0.5866666667rem;
+                height: 0.56rem;
+                border-left: 1px solid #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003607}}
+        html body #add_car .car_bottom .car_button {
+          width: 100%;
+          height: 13%;
+          padding: 0.12rem 0.2933333333rem 0.08rem 0.2933333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003611}}
+          html body #add_car .car_bottom .car_button .button_content {
+            width: 9.36rem;
+            height: 1.0666666667rem;
+            line-height: 1.0666666667rem;
+            font-size: 0.4rem;
+            text-align: center;
+            color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003618}}
+            html body #add_car .car_bottom .car_button .button_content .add_button {
+              display: inline-block;
+              float: left;
+              width: 4.6666666667rem;
+              height: 1.0666666667rem;
+              background: linear-gradient(to right, #fdb262, #fcbf7e);
+              border-radius: 1.0666666667rem 0 0 1.0666666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003626}}
+            html body #add_car .car_bottom .car_button .button_content .buy_button {
+              float: left;
+              display: inline-block;
+              width: 4.6666666667rem;
+              height: 1.0666666667rem;
+              background: linear-gradient(to right, #fd7062, #fd9562);
+              border-radius: 0 1.0666666667rem 1.0666666667rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003639}}
+    html body #custom {
+      display: none;
+      position: absolute;
+      z-index: 10000;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003649}}
+      html body #custom .custom_shadow {
+        width: 100%;
+        height: 100%;
+        background: #999999;
+        opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003655}}
+      html body #custom .custom_bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 54%;
+        background: white;
+        border-top-left-radius: 0.2666666667rem;
+        border-top-right-radius: 0.2666666667rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003663}}
+        html body #custom .custom_bottom .custom_content {
+          height: 87%;
+          width: 100%;
+          padding-top: 0.48rem;
+          border-bottom: 2px solid #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003668}}
+          html body #custom .custom_bottom .custom_content .custom_title {
+            width: 100%;
+            text-align: center;
+            font-size: 0.4266666667rem;
+            font-family: PingFangSC-Medium;
+            font-weight: 500;
+            color: #fd7062;
+            line-height: 0.8rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003677}}
+          html body #custom .custom_bottom .custom_content .bottom_fir {
+            padding-left: 0.2933333333rem;
+            margin-top: 0.1333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003680}}
+            html body #custom .custom_bottom .custom_content .bottom_fir .numb {
+              display: inline-block;
+              width: 0.48rem;
+              height: 0.48rem;
+              border-radius: 0.48rem;
+              text-align: center;
+              line-height: 0.4266666667rem;
+              border: 1px solid #fd7062;
+              color: #fd7062; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003690}}
+            html body #custom .custom_bottom .custom_content .bottom_fir .name {
+              margin-left: 0.2rem;
+              font-size: 0.3733333333rem;
+              color: #333333;
+              line-height: 0.4rem;
+              font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003697}}
+            html body #custom .custom_bottom .custom_content .bottom_fir .fir_content {
+              margin-left: 0.7333333333rem;
+              margin-top: 0.24rem;
+              font-size: 0.3466666667rem;
+              color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003704}}
+          html body #custom .custom_bottom .custom_content .bottom_sec {
+            margin-top: 0.2666666667rem;
+            padding-left: 0.2933333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003707}}
+            html body #custom .custom_bottom .custom_content .bottom_sec .numb {
+              display: inline-block;
+              width: 0.48rem;
+              height: 0.48rem;
+              border-radius: 0.48rem;
+              text-align: center;
+              line-height: 0.3733333333rem;
+              border: 1px solid #fd7062;
+              color: #fd7062; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003717}}
+            html body #custom .custom_bottom .custom_content .bottom_sec .name {
+              margin-left: 0.2rem;
+              font-size: 0.3733333333rem;
+              color: #333333;
+              line-height: 0.4666666667rem;
+              font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003724}}
+            html body #custom .custom_bottom .custom_content .bottom_sec .sec_content {
+              margin-left: 0.7333333333rem;
+              margin-top: 0.24rem;
+              font-size: 0.3466666667rem;
+              color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003732}}
+        html body #custom .custom_bottom .custom_close {
+          width: 100%;
+          height: 13%;
+          padding: 0.08rem 0.2933333333rem 0.08rem 0.2933333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003736}}
+          html body #custom .custom_bottom .custom_close .sure_button {
+            width: 9.36rem;
+            height: 1.0666666667rem;
+            background: linear-gradient(to right, #fd7062, #fd9562);
+            border-radius: 1.0666666667rem;
+            text-align: center;
+            line-height: 1.0666666667rem;
+            font-size: 0.4rem;
+            color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003750}}
+    html body #share {
+      display: none;
+      position: absolute;
+      z-index: 10000;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003760}}
+      html body #share .share_shadow {
+        width: 100%;
+        height: 100%;
+        background: #999999;
+        opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003766}}
+      html body #share .share_bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 23%;
+        background: white;
+        border-radius: 0.1333333333rem 0.1333333333rem 0px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003773}}
+        html body #share .share_bottom .share_icon {
+          height: 67%;
+          width: 100%;
+          padding-top: 0.48rem;
+          border-bottom: 2px solid #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003778}}
+          html body #share .share_bottom .share_icon .share_weixin {
+            float: left;
+            width: 50%;
+            text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003782}}
+            html body #share .share_bottom .share_icon .share_weixin .fa {
+              display: inline-block;
+              width: 0.9333333333rem;
+              height: 0.9333333333rem;
+              border-radius: 100%;
+              background: RGBA(0, 200, 0, 1);
+              color: #fff;
+              font-size: 0.5333333333rem;
+              text-align: center;
+              line-height: 0.9333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003793}}
+            html body #share .share_bottom .share_icon .share_weixin p {
+              width: 100%;
+              text-align: center;
+              height: 0.36rem;
+              font-size: 0.3466666667rem;
+              font-family: PingFangSC-Regular;
+              font-weight: 400;
+              color: #333333;
+              line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003804}}
+          html body #share .share_bottom .share_icon .share_qq {
+            float: left;
+            width: 50%;
+            text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003808}}
+            html body #share .share_bottom .share_icon .share_qq .fa {
+              display: inline-block;
+              width: 0.9333333333rem;
+              height: 0.9333333333rem;
+              border-radius: 100%;
+              background: RGBA(76, 175, 233, 1);
+              color: #fff;
+              font-size: 0.5333333333rem;
+              text-align: center;
+              line-height: 0.9333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003819}}
+            html body #share .share_bottom .share_icon .share_qq p {
+              width: 100%;
+              text-align: center;
+              height: 0.36rem;
+              font-size: 0.3466666667rem;
+              font-family: PingFangSC-Regular;
+              font-weight: 400;
+              color: #333333;
+              line-height: 0.56rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003831}}
+        html body #share .share_bottom .share_close {
+          width: 100%;
+          height: 33%;
+          padding: 0.08rem 0.2933333333rem 0.08rem 0.2933333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/detail\/scss\/detail\.scss}line{font-family:\00003835}}
+          html body #share .share_bottom .share_close .close_button {
+            width: 9.36rem;
+            height: 1.0666666667rem;
+            background: #e6e6e6;
+            border-radius: 1.0666666667rem;
+            text-align: center;
+            line-height: 1.0666666667rem;
+            font-size: 0.4rem;
+            color: #666; }
+
+/*# sourceMappingURL=detail.css.map */
