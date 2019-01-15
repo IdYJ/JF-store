@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <div>
+                    <img src="" id="imgs">
+                </div>
+                 
+                <input type="file" id="imgInput">
+               
+</body>
+</html>
+<script src="../js/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+<script>
+$("#imgInput").change(function(){
+    $("#imgs").attr("src",URL.createObjectURL($(this)[0].files[0]));
+    console.log(URL.createObjectURL($(this)[0].files[0]))
+});
+
+</script>

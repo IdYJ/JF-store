@@ -1,0 +1,308 @@
+@charset "UTF-8";
+$design-width:750px;
+@function px2rem($px){
+    @return $px/$design-width*10+rem
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        background: #f8f8f8;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        #header{
+            width: 100%;
+            height: px2rem(88px);
+            background:linear-gradient(135deg,rgba(254,151,140,1),rgba(254,179,142,1));
+            position: fixed;
+            z-index: 0;
+            //border-bottom: 1px solid #f8f8f8;
+            .writeorder{
+                font-size:px2rem(36px);
+                font-family:PingFangSC-Medium;
+                font-weight:600;
+                color:#fff;
+                line-height:px2rem(88px);
+                width: 100;
+                height: 100%;
+                text-align: center;
+            }
+            .enve{
+                display: inline-block;
+                width: px2rem(44px);
+                height: 100%;
+                top: 0;
+                position: absolute;
+                right: px2rem(102px);
+                font-size: px2rem(44px);
+                line-height: px2rem(88px);
+                text-align: center;
+                color:#fff;
+            }
+            .elli{
+                display: inline-block;
+                width: px2rem(44px);
+                height: 100%;
+                top: 0;
+                position: absolute;
+                right: px2rem(20px);
+                font-size: px2rem(44px);
+                line-height: px2rem(88px);
+                text-align: center;
+                color:#fff;
+            }
+            .rticon{
+                display: inline-block;
+
+                width: px2rem(50px);
+                height: px2rem(32px);
+                background: #fd7062;
+                border-radius: px2rem(16px);
+                text-align: center;
+                line-height: px2rem(32px);
+                font-size:px2rem(22px);
+                font-family:PingFangSC-Regular;
+                font-weight:400;
+                color:rgba(255,255,255,1);
+                position: absolute;
+                top: px2rem(10px);
+                right: px2rem(72px);
+            }
+        }
+        #me_content{
+            height: 87%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin-top: px2rem(88px);
+            width: 100%;
+            position: relative;
+            padding-bottom: px2rem(20px);
+            
+            //用户登陆时
+            .user{
+                width: 100%;
+                height: px2rem(375px);
+                background:linear-gradient(135deg,rgba(254,151,140,1),rgba(254,179,142,1));
+                border-bottom-left-radius: px2rem(150px) px2rem(50px);
+                border-bottom-right-radius: px2rem(150px) px2rem(50px);
+                display: flex;
+                position: relative;
+                .uicon{
+                    width: px2rem(120px);
+                    height: px2rem(120px);
+                    margin-left: px2rem(20px);
+                    margin-top: px2rem(100px);
+                    margin-right: px2rem(30px);
+                    img{
+                        width: px2rem(120px);
+                        height: px2rem(120px);
+                    }
+                }
+                .preson{
+                    margin-top: px2rem(100px);
+                    .name{
+                        font-size:px2rem(32px);
+                        font-family:PingFangSC-Medium;
+                        font-weight:500;
+                        color:rgba(255,255,255,1);
+                        line-height: px2rem(60px);
+                    }
+                    .number{
+                        font-size:px2rem(28px);
+                        font-family:DIN-Regular;
+                        font-weight:400;
+                        color:rgba(255,255,255,1);
+                        line-height: px2rem(60px);
+                    }
+                }
+                .jifen{
+                    width: px2rem(220px);
+                    height: px2rem(60px);
+                    background: #fff;
+                    border-radius: px2rem(30px) 0 0 px2rem(30px);
+                    position: absolute;
+                    top: px2rem(150px);
+                    right: 0;
+                    line-height: px2rem(40px);
+                    padding-top: px2rem(10px);
+                    font-size:px2rem(26px);
+                    font-family:PingFangSC-Regular;
+                    font-weight:400;
+                    color:rgba(102,102,102,1);
+                    img{
+                        //margin-top: px2rem(10px);
+                        width: px2rem(40px);
+                        height: px2rem(40px);
+                        vertical-align: bottom;
+                        margin-left: px2rem(17px);
+                    }
+                    span{
+                        margin-top: px2rem(10px);
+                        font-size:px2rem(26px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(102,102,102,1);
+                    }
+
+                }
+            }
+
+            //未登陆状态
+            .logout{
+                width: 100%;
+                height: px2rem(375px);
+                background:linear-gradient(135deg,rgba(254,151,140,1),rgba(254,179,142,1));
+                border-bottom-left-radius: px2rem(150px) px2rem(50px);
+                border-bottom-right-radius: px2rem(150px) px2rem(50px);
+                width: 100%;
+                padding-top: px2rem(50px);
+                .pic{
+                    margin: 0 auto;
+                    width: px2rem(120px);
+                    height: px2rem(120px);
+                    img{
+                        width: px2rem(120px);
+                        height: px2rem(120px);
+                    }
+                }
+                .state{
+                    width: 100%;
+                    height: px2rem(60px);
+                    text-align: center;
+                    line-height: px2rem(60px);
+                    font-size:px2rem(32px);
+                    font-family:PingFangSC-Medium;
+                    font-weight:500;
+                    color:rgba(255,255,255,1);
+                }
+            }
+            .tabbar{
+                position: absolute;
+                left: px2rem(24px);
+                right: px2rem(24px);
+                background: #fff;
+                border-radius: px2rem(10px);
+                height: px2rem(170px);
+                top: px2rem(290px);
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+                div{
+                    position: relative;
+                    img{
+                        width: px2rem(60px);
+                        height: px2rem(60px);
+                    }
+                    p{
+                        font-size:px2rem(24px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(102,102,102,1);
+                    }
+                    i{
+                        position: absolute;
+                        width: px2rem(50px);
+                        top: px2rem(-10px);
+                        right: px2rem(-5px);
+                        font-size:px2rem(22px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(255,255,255,1);
+                        display: inline-block;
+                        height: px2rem(32px);
+                        text-align: center;
+                        background: #fd7062;
+                        line-height: px2rem(32px);
+                        border-radius: px2rem(16px);
+                        // padding-left: px2rem(10px);
+                        // padding-right: px2rem(10px);
+                    }
+                    .lai{
+                        right: px2rem(0px)
+                    }
+                }
+            }
+            .mineitem{
+                width: 100%;
+                padding: px2rem(0px) px2rem(24px) px2rem(0px) px2rem(24px);
+                margin-top: px2rem(100px);
+                li{
+                    width: 100%;
+                    height: px2rem(110px);
+                    background: #fff;
+                    border-bottom: px2rem(1px) solid #f8f8f8;
+                    display: flex;
+                    line-height: px2rem(40px);
+                    justify-content: space-between;
+                    padding-left: px2rem(16px);
+                    padding-right: px2rem(16px);
+                    padding-top: px2rem(35px);
+                    img{
+                        width: px2rem(40px);
+                        height: px2rem(40px);
+                        //vertical-align: middle;
+                    } 
+                    span{
+                        font-size:px2rem(28px);
+                        font-family:PingFangSC-Regular;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                        vertical-align: top;
+                        margin-left: px2rem(19px);
+                    }
+                }
+            }
+        }
+        #foot{
+            position: absolute;
+            background: #fff;
+            border: 1px solid #f2f2f2;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            border: 1px solid #ccc;
+            height: 7%;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            .foot_icon{
+                width: px2rem(90px);
+                text-align: center;
+                padding-top: 2%;
+                p{
+                    font-size: px2rem(18px);
+                    color: #666;
+                    font-weight: 600;
+                }
+                .fa{
+                    display: inline-block;
+                    text-align: center;
+                    line-height: px2rem(38px);
+                    width: px2rem(38px);
+                    height: px2rem(38px);
+                    font-size: px2rem(38px);
+                    color: #666;
+                    text-align: center;
+                }
+                .fa-jpy{
+                    font-size: px2rem(20px);
+                    border: 2px solid #666;
+                    border-radius: 100%;
+                    line-height: px2rem(34px);
+                }
+            }
+            .shopping_car{
+                .fa-user-o{
+                    color: #fd7062;
+                }
+                p{
+                    color: #fd7062;
+                }
+            }
+        }
+    }
+}

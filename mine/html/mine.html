@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的中心</title>
+    <script src="../js/flexible.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../scss/mine.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-style: normal;
+        list-style: none;
+    }
+</style>
+<body>
+    <!--头部-->
+    <div id="header">
+        <p class="writeorder">我的中心</p>
+        <span class="enve">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </span>
+        <span class="elli">
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+        </span>
+        <i class="rticon">99+</i>
+    </div>
+    <!--content-->
+    <div id="me_content">
+        <!--登录-->
+        <div class="login" style="display:none">
+            <div class="user" >
+                <div class="uicon">
+                    <img src="../img/user.png" alt="">
+                </div>
+                <div class="preson">
+                    <p class="name">狮子狗</p>
+                    <p class="number">13931098743</p>
+                </div>
+                <div class="jifen">
+                    <img src="../img/jifen.png" alt="">
+                    积分 <span>1828</span>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i> 
+                </div>
+            </div>
+        </div>
+        <!--未登陆状态-->
+        <div class="logout" style="display:none">
+            <p class="pic"><img src="../img/user.png" alt=""></p>
+            <p class="state">未登录</p>
+        </div>
+        <!--TAB-->
+        <div class="tabbar">
+            <div>
+                <img src="../img/icon1.png" alt="">
+                <P>全部订单</P>
+                <i>99+</i>
+            </div>
+            <div>
+                <img src="../img/icon2.png" alt="">
+                <P>待付款</P>
+                <i>99+</i>
+            </div>
+            <div>
+                <img src="../img/icon3.png" alt="">
+                <P>待收款</P>
+                <i>99+</i>
+            </div>
+            <div>
+                <img src="../img/icon4.png" alt="">
+                <P>退换/售后</P>
+                <i class="lai">99+</i>
+            </div>
+        </div>
+        <!--我的..-->
+        <ul class="mineitem">
+            <li>
+                <p>
+                    <img src="../img/item3.png" alt="">
+                    <span>足迹</span>
+                </p>
+                <p><img src="../img/right.png" alt=""></p>
+            </li>
+            <li>
+                <p>
+                    <img src="../img/item1.png" alt="">
+                    <span>收藏</span>
+                </p>
+                <p><img src="../img/right.png" alt=""></p>
+            </li>
+            <li>
+                <p>
+                    <img src="../img/item4.png" alt="">
+                    <span>我的礼品</span>
+                </p>
+                <p><img src="../img/right.png" alt=""></p>
+            </li>
+            <li>
+                <p>
+                    <img src="../img/item6.png" alt="">
+                    <span>收货地址管理</span>
+                </p>
+                <p><img src="../img/right.png" alt=""></p>
+            </li>
+            <li>
+                <p>
+                    <img src="../img/item2.png" alt="">
+                    <span>意见反馈</span>
+                </p>
+                <p><img src="../img/right.png" alt=""></p>
+            </li>
+            <li>
+                <p>
+                    <img src="../img/item5.png" alt="">
+                    <span>积分说明</span>
+                </p>
+                <p><img src="../img/right.png" alt=""></p>
+            </li>
+            <li>
+                <p>
+                    <img src="../img/item7.png" alt="">
+                    <span>设置</span>
+                </p>
+                <p><img src="../img/right.png" alt=""></p>
+            </li>
+        </ul>
+    </div>
+    <div id="foot">
+            <div class="foot_icon"><i class="fa fa-jpy" aria-hidden="true"></i><p>花积分</p></div>
+            <div class="foot_icon "><i class="fa fa-shopping-cart" aria-hidden="true"></i><p>购物车</p></div>
+            <div class="foot_icon shopping_car"><i class="fa fa-user-o" aria-hidden="true"></i><p>我的</p></div>
+    </div>
+</body>
+</html>
+<script src="../js/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+<script src="../js/mine.js"></script>
